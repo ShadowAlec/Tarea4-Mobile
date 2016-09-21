@@ -11,8 +11,14 @@ Un patrón de diseño debe cumplir al menos dos requisitos para considerarse com
 
 Los patrones descritos en GoF se dividen en tres tipos: Creacionales, estructurales, y de comportamiento. Su conocimiento y estudio permiten reconocer los problemas más típicos de forma rápida y efectiva, resolviéndolos en tiempos récord sin sacrificar demasiado la extensibilidad. Y sobre todo, permite mantener un lenguaje común entre programadores a la hora de referenciar un problema.
 
-## 2.- Patrón de diseño Singleton
+## 2.- Patrón de diseño Singleton.
 
 El patrón Singleton es un patrón de diseño en el que una clase solo puede tener una única instancia de sí misma. para ello se utilizan los modificadores de acceso (Como private y protected). En conjunción con un método específico y público que se encarga de llamar al constructor. 
 
-## 3.- 
+## 3.- Patrón de diseño Factory. 
+
+Implementa una clase creadora abstracta que puede ser capaz de crear varios tipos de objetos distintos, según se llame al método fabricante. 
+
+## 4.- Patrón de diseño Builder
+
+Este implementa varias clases que en conjunción son capaces de crear objetos complejos desde un objeto fuente. El objeto fuente se compone de una variedad de partes que contribuyen individualmente a la creación de cada objeto complejo a través de un conjunto de llamadas a interfaces comunes de la clase Abstract Builder.
