@@ -13,4 +13,6 @@ Los patrones descritos en GoF se dividen en tres tipos: Creacionales, estructura
 
 ## 2.- Patrón de diseño Singleton
 
+El patrón Singleton es un patrón de diseño en el que una clase solo puede tener una única instancia de sí misma. para ello se utilizan los modificadores de acceso (Como private y protected). En conjunción con un método específico y público que se encarga de llamar al constructor. 
 
+## 3.- 
