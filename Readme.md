@@ -33,3 +33,32 @@ ADB (Por sus siglas en inglés "Android Debug Bridge") Es una herramienta que pe
 El operador final hace que a un objeto o variable se le pueda hacer una y sólo una asignación. Si se intenta hacer otra asignación, el compilador arrojará un error.
 
 ## 7.- Lenguajes que soportan Sobrecarga de operadores
+
+* C++
+* C#
+* Ada
+* Ceylon
+* D
+* Dart
+* FreeBASIC
+* Groovie
+* Lua
+* MATLAB
+* Object Pascal
+* PHP
+* Perl
+* Pyhton
+* Ruby
+* Rust
+* Visual Basic .NET
+
+## 8.- ¿Para qué sirve Gradle?
+
+Gradle es una herramienta para automatizar la construcción de nuestros proyectos, por ejemplo las tareas de compilación, testing, empaquetado y el despliegue de los mismos. Es muy flexible para la configuración, pero además ya tiene armadas las tareas para las mayoría de los proyectos por default. Esta herramienta es usado por grandes proyecto “Open Source” como “Spring”, “Hibernate”, y “Grails”. (También lo usan empresas como “LinkedIn” para sus proyectos)
+
+## 9.- inyección de dependencias en desarrollo de software.
+
+En informática, inyección de dependencias (en inglés Dependency Injection, DI) es un patrón de diseño orientado a objetos, en el que se suministran objetos a una clase en lugar de ser la propia clase quien cree el objeto. El término fue acuñado por primera vez por Martin Fowler.
+La forma habitual de implementar este patrón es mediante un "Contenedor DI" y objetos planos o simples por ejemplo los llamados POJO en java (Plain Old Java Object, es una sigla utilizada por programadores Java para enfatizar el uso de clases simples y que no dependen de un framework en especial.). El contenedor inyecta a cada objeto los objetos necesarios según las relaciones plasmadas en un fichero de configuración.
+
+Típicamente este contenedor es implementado por un framework externo a la aplicación (como Spring entre otros), por lo cual en la aplicación también se utilizará inversión de control al ser el contenedor (almacenado en una biblioteca) quien invoque el código de la aplicación. Ésta es la razón por la que los términos de inversión de control e inyección de dependencias se confunden habitualmente entre sí.
