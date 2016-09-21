@@ -21,4 +21,15 @@ Implementa una clase creadora abstracta que puede ser capaz de crear varios tipo
 
 ## 4.- Patrón de diseño Builder
 
-Este implementa varias clases que en conjunción son capaces de crear objetos complejos desde un objeto fuente. El objeto fuente se compone de una variedad de partes que contribuyen individualmente a la creación de cada objeto complejo a través de un conjunto de llamadas a interfaces comunes de la clase Abstract Builder.
+Este implementa varias clases que en conjunción son capaces de crear objetos complejos desde un objeto fuente. El objeto fuente se compone de una variedad de partes que contribuyen individualmente a la creación de cada objeto complejo a través de un conjunto de llamadas a interfaces comunes de la clase Abstract Builder
+.
+
+## 5.- ADB de Android.
+
+ADB (Por sus siglas en inglés "Android Debug Bridge") Es una herramienta que permite interactuar al usuario con el software de nuestro smartphone que tenga android como sistema operativo desde un ordenador. Básicamente, ADB es la manera de cambiar profundamente el software del smartphone. ADB Es una parte fundamental de android studio.
+
+## 6.- "final" En Java.
+
+El operador final hace que a un objeto o variable se le pueda hacer una y sólo una asignación. Si se intenta hacer otra asignación, el compilador arrojará un error.
+
+## 7.- Lenguajes que soportan Sobrecarga de operadores
